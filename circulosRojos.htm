@@ -1,0 +1,37 @@
+﻿<html>
+<head>
+    <title>circulos</title>
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="js/lettering.js"></script>
+    
+    <style>
+        #circulos{
+           color: red;
+           font-size: 159px;
+        }
+    </style>
+
+    <script type="text/jscript">
+
+        window.onload = function() {
+            var lett = $("#circulos").lettering();
+            lett.find("span").each(function(){
+                setInterval(function(o){
+                    $(o).css("color",
+                        "rgb(255,"+ Math.floor(Math.random()*80) +","+ Math.floor(Math.random()*80) +")")
+                }, 1000, this);
+            });
+
+            setTimeout(function(){
+            
+            }, 1000)
+        };
+
+    </script>
+</head>
+<body>
+    <div id="circulos">● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ●</div>
+</body>
+</html>

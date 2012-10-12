@@ -1,0 +1,76 @@
+﻿HTML, BODY
+{
+    /*cursor: url("http://dl.dropbox.com/u/1115409/pacopistolas/site/v3/p_i.png"), auto;*/
+}
+
+A:hover
+{
+    /*cursor: url("http://dl.dropbox.com/u/1115409/pacopistolas/site/v3/p_i.png"), auto;*/
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+A img
+{
+    border: 0px;
+    height: 48px;
+    width: 48px;
+}
+
+A img:hover
+{
+    height: 52px;
+    width: 52px;
+}
+
+.TextConsolaSmall
+{
+    font-family: Consolas;
+    color: #003300;
+    vertical-align: middle;
+    text-align: center;
+    font-size: x-small;
+}
+
+#footer{
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+}
+
+#Header
+{
+    width: 650px
+}
+
+#content
+{
+    z-index: 1;
+}
+
+#BallsCanvas
+{
+    /*position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;*/
+
+    width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; z-index: -1;
+}
+
+#harmony canvas
+{
+    z-index: 0;
+    height: 95%;
+    width: 100%;
+}
+
+#helvetica-demo{
+    position: fixed;
+    width: 641px;
+    bottom: 5px;
+    left: 45px;
+}
